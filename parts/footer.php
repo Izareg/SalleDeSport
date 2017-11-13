@@ -6,7 +6,7 @@
 		</main>
 		<div class="container-fluid">
 		<footer class="col-md-12 text-center">
-			<p>&copy; Biscotto3000 2017</p>
+			<p>&copy; Biscotto30000 2025</p>
 			<a href="mentionslegales.php" target="_blank">Mentions Légales</a>
 		</footer>
 		</div>
