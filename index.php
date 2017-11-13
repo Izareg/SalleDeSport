@@ -7,9 +7,10 @@
 <section>
 	
 <body>
-	<h1 id="titre" class="container-fluid"><img src="img/PictoHaltere.png" class="pictoOuv">Bienvenue sur <span>Biscotto 3000</span></h1>
-	
-	<p class="container-fluid txt">Faites du sport avec des équipements haut de gamme à moindre coût</p>
+	<section class="container-fluid col-md-9"><img src="img/PictoHaltere.png" class="pictoOuv"></section>
+	<h1 id="titre" class="container-fluid col-md-9">Bienvenue sur <span>Biscotto 3000</span></h1>
+
+	<p class="container-fluid col-md-9 txt">Faites du sport avec des équipements haut de gamme à moindre coût</p>
 </body>
 </section>
 
