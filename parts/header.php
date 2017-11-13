@@ -1,32 +1,91 @@
 <?php session_start(); ?>
-
 <!doctype html>
 <html>
 	<head>
-		<title>Association de Défense du Pingouin du Bengale</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style-nav.css">
 	</head>
 	<body>
 		<header class="text-center">
-			
-			<h1>Association de Défense du Pingouin du Bengale</h1>
-			<nav>
-				<ul class="nav nav-pills center-pills">
-					<li <?php if ($page == "index") echo 'class="active"'; ?>><a href="index.php">Accueil</a></li>
-					<li <?php if ($page == "presentation") echo 'class="active"'; ?>><a href="presentation.php">Qui sommes-nous ?</a></li>
-					<li <?php if ($page == "rejoindre") echo 'class="active"'; ?>><a href="rejoindre.php">Nous rejoindre</a></li>
-					<li <?php if ($page == "contact") echo 'class="active"'; ?>><a href="contact.php">Signaler un pingouin errant</a></li>
-					<li <?php if ($page == "adopter") echo 'class="active"'; ?>><a href="adopter.php">Adoptez un pingouin</a></li>
-					<li><a href="connexion.php"><?php if (isset($_SESSION['prenom'])) echo 'Deconnexion'; else echo 'Connexion'; ?></a></li>
+			    <nav class="[ navbar navbar-fixed-top ][ navbar-bootsnipp animate ]" role="navigation">
+    	<div class="[ container ]">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="[ navbar-header ]">
+				<button type="button" class="[ navbar-toggle ]" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="[ sr-only ]">Toggle navigation</span>
+					<span class="[ icon-bar ]"></span>
+					<span class="[ icon-bar ]"></span>
+					<span class="[ icon-bar ]"></span>
+				</button>
+				<div class="[ animbrand ]">
+					<a class="[ navbar-brand ][ animate ]" href="#">Biscotto 3000</a>
+				</div>
+			</div>
+
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="[ collapse navbar-collapse ]" id="bs-example-navbar-collapse-1">
+				<ul class="[ nav navbar-nav navbar-right ]">
+					<li class="[ visible-xs ]">
+						<form action="http://bootsnipp.com/search" method="GET" role="search">
+							<div class="[ input-group ]">
+								<input type="text" class="[ form-control ]" name="q" placeholder="Search for snippets">
+								<span class="[ input-group-btn ]">
+									<button class="[ btn btn-primary ]" type="submit"><span class="[ glyphicon glyphicon-search ]"></span></button>
+									<button class="[ btn btn-danger ]" type="reset"><span class="[ glyphicon glyphicon-remove ]"></span></button>
+								</span>
+							</div>
+						</form>
+					</li>
+					<li><a href="#" class="[ animate ]">Accueil</a></li>
+					<li>
+						<a href="#" class="[ dropdown-toggle ][ animate ]" data-toggle="dropdown">Agenda <span class="[ caret ]"></span></a>
+						<ul class="[ dropdown-menu ]" role="menu">
+							<li><a href="#" class="[ animate ]">Blog <span class="[ pull-right glyphicon glyphicon-pencil ]"></span></a></li>
+							<li><a href="#" class="[ animate ]">List of resources <span class="[ pull-right glyphicon glyphicon-align-justify ]"></span></a></li>
+							<li><a href="#" class="[ animate ]">Download Bootstrap <span class="[ pull-right glyphicon glyphicon-cloud-download ]"></span></a></li>
+							<li class="[ dropdown-header ]">Bootstrap Templates</li>
+							<li><a href="#" class="[ animate ]">Browse Templates <span class="[ pull-right glyphicon glyphicon-shopping-cart ]"></span></a></li>
+							<li class="[ dropdown-header ]">Builders</li>
+							<li><a href="#" class="[ animate ]">Form Builder <span class="[ pull-right glyphicon glyphicon-tasks ]"></span></a></li>
+							<li><a href="#" class="[ animate ]">Button Builder <span class="[ pull-right glyphicon glyphicon-edit ]"></span></a></li>
+						</ul>
+					</li>
+					<li class="[ dropdown ]">
+						<a href="#" class="[ dropdown-toggle ][ animate ]" data-toggle="dropdown">Contact <span class="[ caret ]"></span></a>
+						<ul class="[ dropdown-menu ]" role="menu">
+							<li><a href="#" class="[ animate ]">Featured <span class="[ pull-right glyphicon glyphicon-star ]"></span></a></li>
+							<li><a href="#" class="[ animate ]">Tags  <span class="[ pull-right glyphicon glyphicon-tags ]"></span></a></li>
+							<li class="[ dropdown-header ]">By Bootstrap Version</li>
+							<li><a href="#" class="[ animate ]">3.2.0</a></li>
+							<li><a href="#" class="[ animate ]">3.1.0</a></li>
+							<li><a href="#" class="[ animate ]">3.0.3</a></li>
+							<li><a href="#" class="[ animate ]">3.0.1</a></li>
+							<li><a href="#" class="[ animate ]">3.0.0</a></li>
+							<li><a href="#" class="[ animate ]">2.3.2</a></li>
+						</ul>
+					</li>
+					<li><a class="animate" href="#register">S'inscrire</a></li>
+					<li><a class="animate" href="#login">Connexion</a></li>
+                    <li class="[ hidden-xs ]"><a href="#toggle-search" class="[ animate ]"><span class="[ glyphicon glyphicon-search ]"></span></a></li>
 				</ul>
-				
-				<?php if(isset($_SESSION['prenom'])): ?>
-				<span class="compte">Bonjour <?php echo $_SESSION['prenom']; ?>
-				</span>
-				<?php endif; ?>
-			</nav>
+			</div>
+		</div>
+		<div class="[ bootsnipp-search animate ]">
+			<div class="[ container ]">
+				<form action="http://bootsnipp.com/search" method="GET" role="search">
+					<div class="[ input-group ]">
+						<input type="text" class="[ form-control ]" name="q" placeholder="Search for snippets and hit enter">
+						<span class="[ input-group-btn ]">
+							<button class="[ btn btn-danger ]" type="reset"><span class="[ glyphicon glyphicon-remove ]"></span></button>
+						</span>
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav>
 		</header>
+
 		<main class="container-fluid">
 			<div class="col-md-9">
