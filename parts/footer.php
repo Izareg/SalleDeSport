@@ -1,4 +1,6 @@
-			
+						<aside class="sidebar col-md-3">
+				<?php require_once('sidebar.php'); ?>
+			</aside>
 			</div>
 			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 			<link rel="stylesheet" type="text/css" href="css/stylefooter.css"
@@ -6,7 +8,7 @@
 		</main>
 		<div class="container-fluid">
 		<footer class="col-md-12 text-center">
-			<p>&copy; Biscotto30000 2025</p>
+			<p>&copy; Biscotto3000 2017</p>
 			<a href="mentionslegales.php" target="_blank">Mentions Légales</a>
 		</footer>
 		</div>
