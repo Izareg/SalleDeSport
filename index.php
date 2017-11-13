@@ -1,4 +1,4 @@
-
+<?php require('parts/header.php'); ?>
 
 <h3>Bonjour et bienvenue</h3>
 <footer>
