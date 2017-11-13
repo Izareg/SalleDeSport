@@ -1,0 +1,19 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+footer{
+
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #CCDBDC ;
+    background-color: #003249;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    text-align: center;
+
+}
+
+a {
+  color: white;
+}

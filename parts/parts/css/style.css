@@ -1,0 +1,21 @@
+h1{
+	text-align:center;
+}
+
+.list-inline
+{
+	text-align:center;
+}
+
+h3{
+	margin-left:20px;
+}
+
+.sidebar{
+	float:right;
+	max-width:100px;
+}
+
+nav{
+	text-align:center;
+}
