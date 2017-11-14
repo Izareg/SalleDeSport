@@ -9,4 +9,16 @@ h2{
 	font-family: Raleway;
 	color: #007EA7;
 	font-weight: 900;
+	margin-bottom: 0;
+
+}
+.bleue{
+	color: #007EA7;
+}
+h3.slogan{
+	font-family: Raleway;
+	color: #007EA7;
+	font-size: 12px;
+	margin-top: 0;
+	margin-left: 4%;
 }
