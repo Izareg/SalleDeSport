@@ -24,40 +24,27 @@
 			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>    
-			    <li data-target="#carousel-example-generic" data-slide-to="3"></li>    
-			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+
 			  </ol>
 
 			  <!-- Slides -->
-
+				<!-- image 1 -->
 				<div class="carousel-inner" role="listbox">
 				  <div class="item active">
 				    <img src="img/Sport_1.jpg" alt="sport">
-				    <div class="carousel-caption">
-				      <!-- image 1 -->
+				    <div class="carousel-caption">A force de serrer, je vais me casser une dent
 				    </div>
 				  </div>
-				    <div class="item">
-				    <img src="img/Sport_1.jpg" alt="sport">
-				    <div class="carousel-caption">
+				 <!-- image 2 -->
+				  <div class="item">
+				    <img src="img/TresFeminine_1.jpg" alt="sport">
+				    <div class="carousel-caption">Avant je ressemblais à Barbie
 				    </div>
 				  </div>
-				    <div class="item">
-				    <img src="img/Sport_1.jpg" alt="sport">
-				    <div class="carousel-caption">
-				      <!-- image 2 -->
-				    </div>
-				  </div>
-				    <div class="item">
-				    <img src="img/Sport_1.jpg" alt="sport">
-				    <div class="carousel-caption">
-				      <!-- image 3 -->
-				    </div>
-				  </div>
-				    <div class="item">
-				    <img src="img/Sport_1.jpg" alt="sport">
-				    <div class="carousel-caption">
-				      <!-- image 4 -->
+				  <!-- image 3 -->
+				  <div class="item">
+				    <img src="img/FoPaLacher_1.jpg" alt="sport">
+				    <div class="carousel-caption">Surtout ne lâche pas !
 				    </div>
 				  </div>
 				</div><!-- fermeture Slides -->
@@ -77,13 +64,13 @@
 		<section>
 				<div class="container col-md-12">
 					<div class="row">
-						<div class="col-md-6">
+						<div class="col-md-7">
 							<p class="paragraphe">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula dapibus cursus. Quisque id lectus vitae odio congue elementum. Quisque rhoncus elementum elit eu fringilla. In a egestas tellus. Duis fermentum sagittis quam, id pulvinar diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent id eros ut nunc luctus ornare. Vestibulum consectetur nulla ut eros lacinia, euismod semper orci pulvinar. Nam blandit auctor ultricies. Vivamus convallis laoreet ipsum eu sodales. Etiam sed arcu vitae leo fermentum placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula dapibus cursus. Quisque id lectus vitae odio congue elementum. Quisque rhoncus elementum elit eu fringilla. In a egestas tellus. Duis fermentum sagittis quam, id pulvinar diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent id eros ut nunc luctus ornare. Vestibulum consectetur nulla ut eros lacinia, euismod semper orci pulvinar. Nam blandit auctor ultricies. Vivamus convallis laoreet ipsum eu sodales. Etiam sed arcu vitae leo fermentum placerat. 
 								</p>
 						</div>
 
-						<div class="col-md-6">
+						<div class="col-md-5">
 							<aside class="blocDroit">
 								Infos de connexion 
 							</aside>

@@ -1,6 +1,7 @@
 body{
 	font-family: Raleway;
 	padding:0;
+	background-color: #007EA7;
 }
 h1{
 	font-weight: bold;
@@ -21,4 +22,12 @@ h3.slogan{
 	font-size: 12px;
 	margin-top: 0;
 	margin-left: 4%;
+}
+.fonddiv{
+	
+	border-radius: 30px;
+	background-color: white;
+}
+iframe{
+	margin-bottom: 20px;
 }
