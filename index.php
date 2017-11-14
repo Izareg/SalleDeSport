@@ -72,7 +72,7 @@
 
 						<div class="col-md-5">
 							<aside class="blocDroit">
-								Infos de connexion 
+								<?php require_once('login.html') ?>
 							</aside>
 						</div>
 					</div>
