@@ -12,13 +12,14 @@
 				<div class="col-md-12">
 	<h1>Nos mentions légales</h1>
 	<h2 class="nom">Biscotto 3000</h2>
+	<h3 class="slogan">La gonflette utile</h3>
 	<p>Tel: 08.36.65.65.65</p>
-	<p>15 Jihad Street, Bagdad</p>
-	<p>Biscotto 3000 est une EURL au capital de 35000€</p>
+	<p>5 terres du Cimetière, 87160 Arnac-la-Poste</p>
+	<p><div class="bleue">Biscotto 3000</div> est une EURL au capital de 35000€</p>
 	<p>CS B 497 553 71 - Siret : ALADIN900020 - APE : LAMPE07</p>
 	<p>N° déclaration CNIL : 55555</p>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.8195022683753!2d44.39564871553145!3d33.34966506187241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x155778a2fbc1ae8b%3A0x4a0c4a586cb3ab50!2sJihad+Street%2C+Baghdad%2C+Irak!5e0!3m2!1sfr!2sfr!4v1510645579748" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2758.2213654481848!2d1.3776557158066858!3d46.265704887624246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fbfc650632d4f9%3A0xf4fb87b97e2a9148!2sTerres+du+Cimeti%C3%A8re%2C+87160+Arnac-la-Poste!5e0!3m2!1sfr!2sfr!4v1510653556228" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</div>
 </div>
 </div>
