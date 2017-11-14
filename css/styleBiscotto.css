@@ -3,12 +3,7 @@ body{
 	padding:0;
 }
 
-.pictoOuv{
-	margin-top: 200px;
-	width: 10%;
-	height: 10%;
-}
-
+/*Titres*/
 #titre{
 	font-size: 5rem;
 	font-weight: 100;
@@ -21,12 +16,14 @@ body{
 	color:#007EA7;
 }
 
+/*Accroche titre*/
 .txt{
 	font-size: 2rem;
 	font-weight: 200i;
 	text-align: center;
 }
 
+/*Slider*/
 .diapo
 {
 	width: 60%;
@@ -34,6 +31,7 @@ body{
 	margin-top: 50px;
 }
 
+/*Texte sous slider*/
 .paragraphe{
 	text-align: justify;
 	margin-top: 30px;
@@ -41,6 +39,7 @@ body{
 	padding:0;
 }
 
+/*Bloc inscription*/
 .blocDroit{
 	background-color: #007EA7;
 	height: 100%;
@@ -50,6 +49,8 @@ body{
 	text-align: center;
 	color:#FFF;
 }
+
+/*Suppression padding classes Bootstrap*/
 .container, .col-md-5, .col-md-7{
 	padding:0;
 }
