@@ -9,7 +9,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12">
-			<h1 id="titre">Bienvenue sur <span>Biscotto 3000</span></h1>
+			<h1 id="titre">Bienvenue sur <span>Biscotto 3000</span> <img class="logo" src="img/bisco.png"></h1>
 			<p class="txt">Faites du sport avec des équipements haut de gamme à moindre coût</p>
 			</div>
 		</div><!-- fermeture class row -->
