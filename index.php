@@ -92,7 +92,6 @@
 					</div>
 				</div> <!--fermeture div class row-->
 		</section>
-	</main>
 </body>
 
 <?php require_once('parts/footer.php'); ?>
