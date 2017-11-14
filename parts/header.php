@@ -55,9 +55,9 @@
 						</ul>
 					</li>
 					<li class="[ dropdown ]">
-						<a href="#" class="[ dropdown-toggle ][ animate ]" data-toggle="dropdown">Contact <span class="[ caret ]"></span></a>
+						<a href="contact.php" class="[ dropdown-toggle ][ animate ]" data-toggle="dropdown">Contact <span class="[ caret ]"></span></a>
 						<ul class="[ dropdown-menu ]" role="menu">
-							<li><a href="#" class="[ animate ]">Featured <span class="[ pull-right glyphicon glyphicon-star ]"></span></a></li>
+							<li><a href="contact.php" class="[ animate ]">Formulaire <span class="[ pull-right glyphicon glyphicon-star ]"></span></a></li>
 							<li><a href="#" class="[ animate ]">Tags  <span class="[ pull-right glyphicon glyphicon-tags ]"></span></a></li>
 							<li class="[ dropdown-header ]">By Bootstrap Version</li>
 							<li><a href="#" class="[ animate ]">3.2.0</a></li>
