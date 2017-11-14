@@ -1,6 +1,4 @@
-						<aside class="sidebar col-md-3">
-				<?php require_once('sidebar.php'); ?>
-			</aside>
+
 			</div>
 			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 			<link rel="stylesheet" type="text/css" href="css/stylefooter.css"

@@ -1,11 +1,9 @@
-	</div>
+
+			</div>
 			<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 			<link rel="stylesheet" type="text/css" href="css/stylefooter.css"
 			<aside class="sidebar col-md-12">
 		</main>
-								<aside class="sidebar col-md-3">
-				<?php require_once('sidebar.php'); ?>
-			</aside>
 		<div class="container-fluid">
 		<footer class="col-md-12 text-center">
 			<p>&copy; Biscotto3000 2017</p>
