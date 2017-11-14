@@ -5,7 +5,6 @@
 <link rel="stylesheet" type="text/css" href="css/styleBiscotto.css">
 
 	
-<body>
 <!-- Titre -->
 	<div class="container-fluid">
 		<div class="row">
@@ -13,10 +12,10 @@
 			<h1 id="titre">Bienvenue sur <span>Biscotto 3000</span></h1>
 			<p class="txt">Faites du sport avec des équipements haut de gamme à moindre coût</p>
 			</div>
-		</div>
+		</div><!-- fermeture class row -->
 	</div>
 
-	<main class="container-fluid diapo">
+	<div class="container diapo">
 		<div class="row">
 		<!-- carousel -->
 				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -29,7 +28,7 @@
 			    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
 			  </ol>
 
-			  <!-- Wrapper for slides -->
+			  <!-- Slides -->
 
 				<div class="carousel-inner" role="listbox">
 				  <div class="item active">
@@ -61,9 +60,9 @@
 				      <!-- image 4 -->
 				    </div>
 				  </div>
-				</div>
+				</div><!-- fermeture Slides -->
 
-				  <!-- Controls -->
+				  <!-- Controles -->
 				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 				    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 				    <span class="sr-only">Previous</span>
@@ -72,11 +71,11 @@
 				    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 				    <span class="sr-only">Next</span>
 				  </a>
-				</div>
-		</div>
-		<section>
+			</div><!-- fermeture class row -->
+		</div><!-- fermeture container-fluid diapo -->
 
-				<div class="container-fluid">
+		<section>
+				<div class="container col-md-12">
 					<div class="row">
 						<div class="col-md-6">
 							<p class="paragraphe">
@@ -84,7 +83,7 @@
 								</p>
 						</div>
 
-						<div class="col-md-3">
+						<div class="col-md-6">
 							<aside class="blocDroit">
 								Infos de connexion 
 							</aside>
@@ -92,6 +91,5 @@
 					</div>
 				</div> <!--fermeture div class row-->
 		</section>
-</body>
 
 <?php require_once('parts/footer.php'); ?>
