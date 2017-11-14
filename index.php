@@ -83,10 +83,12 @@
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula dapibus cursus. Quisque id lectus vitae odio congue elementum. Quisque rhoncus elementum elit eu fringilla. In a egestas tellus. Duis fermentum sagittis quam, id pulvinar diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent id eros ut nunc luctus ornare. Vestibulum consectetur nulla ut eros lacinia, euismod semper orci pulvinar. Nam blandit auctor ultricies. Vivamus convallis laoreet ipsum eu sodales. Etiam sed arcu vitae leo fermentum placerat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula dapibus cursus. Quisque id lectus vitae odio congue elementum. Quisque rhoncus elementum elit eu fringilla. In a egestas tellus. Duis fermentum sagittis quam, id pulvinar diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent id eros ut nunc luctus ornare. Vestibulum consectetur nulla ut eros lacinia, euismod semper orci pulvinar. Nam blandit auctor ultricies. Vivamus convallis laoreet ipsum eu sodales. Etiam sed arcu vitae leo fermentum placerat. 
 								</p>
 						</div>
-	
-						<aside class="col-md-3 blocDroit">
-							Infos de connexion 
-						</aside>
+
+						<div class="col-md-3">
+							<aside class="blocDroit">
+								Infos de connexion 
+							</aside>
+						</div>
 					</div>
 				</div> <!--fermeture div class row-->
 		</section>
