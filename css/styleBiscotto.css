@@ -47,10 +47,9 @@ body{
 	margin-top: 30px;
 	margin-bottom: 30px;
 	margin-left: 20px;
-	padding:10%;
 	text-align: center;
 	color:#FFF;
 }
-.container, .col-md-6{
+.container, .col-md-5, .col-md-7{
 	padding:0;
 }
