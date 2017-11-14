@@ -7,11 +7,12 @@
 		<link rel="stylesheet" type="text/css" href="css/stylementions.css">
 	</head>
 	<body>
+		<?php require_once('parts/header.php'); ?>
 		<div class="container">
 			<div class="row justify-content-md-center ">
 			</br>
 				<div class="col-md-12 fonddiv text-center">
-	<h1>Nos mentions légales</h1>
+	<h1 class="mentions">Nos mentions légales</h1>
 	<div class="entoure">
 	<h2 class="nom">Biscotto 3000</h2>
 	<h3 class="slogan">La gonflette utile</h3>
