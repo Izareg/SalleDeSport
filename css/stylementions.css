@@ -3,10 +3,14 @@ body{
 	padding:0;
 	background-color: #007EA7;
 }
-h1{
-	font-weight: bold;
+h1.mentions{
+	font-family: Raleway;
+	padding-top:50px;
+	font-size: 50px;
+
+	
 }
-h2{
+h2.nom{
 	font-family: Raleway;
 	color: #007EA7;
 	font-weight: 900;
