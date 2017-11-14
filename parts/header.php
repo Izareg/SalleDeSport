@@ -68,7 +68,6 @@
 							<li><a href="#" class="[ animate ]">2.3.2</a></li>
 						</ul>
 					</li>
-					<li><a class="animate" href="#register">S'inscrire</a></li>
 					<li><a class="animate" href="#login">Connexion</a></li>
                     <li class="[ hidden-xs ]"><a href="#toggle-search" class="[ animate ]"><span class="[ glyphicon glyphicon-search ]"></span></a></li>
 				</ul>
