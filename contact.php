@@ -1,20 +1,19 @@
-<?php 
-	$page = 'contact';
-	require_once('parts/header.php');
-?>
+<?php require_once('parts/header.php'); ?>
 
-<!doctype html>
-<html>
-	<head>
-		<title>Contact</title>
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/contact-style.css">
-	</head>
-	<body id="contact">
+	
+
+	<main id="contact">
 	<section>
+			<!-- Titre -->
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12">
+					<h1 id="titre">Bienvenue sur <span>Biscotto 3000</span> <img class="logo" src="img/bisco.png"></h1>
+					<p class="txt">En campagne ou ville, osez le style, optez pour la gonflette utile !</p>
+					</div>
+				</div><!-- fermeture class row -->
+			</div>
+
 			<div class="section-content">
 				<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s">Biscotto 3000</span></h1>
 				<h3>Nous contacter</h3>
@@ -53,5 +52,6 @@
 				</form>
 			</div>
 		</section>
-	</body>
+	</main>
+</body>
 </html>
