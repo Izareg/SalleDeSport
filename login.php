@@ -61,25 +61,25 @@
           <div id="login">   
             <h1>Se connecter</h1>
             
-            <form action="/" method="post">
+            <form action="connexion.php" method="post">
             
               <div class="field-wrap">
               <label>
                 Email <span class="req">*</span>
               </label>
-              <input type="email"required autocomplete="off"/>
+              <input type="email"required name="email" autocomplete="off"/>
             </div>
             
             <div class="field-wrap">
               <label>
                 Mot de passe<span class="req">*</span>
               </label>
-              <input type="password"required autocomplete="off"/>
+              <input type="password"required name="pass" autocomplete="off"/>
             </div>
             
             <p class="forgot"><a href="#">Mot de passe oublié ?</a></p>
             
-            <button class="button button-block"/>Se connecter</button>
+            <button type="submit" class="button button-block"/>Se connecter</button>
             
             </form>
 

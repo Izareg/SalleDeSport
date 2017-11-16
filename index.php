@@ -72,7 +72,7 @@
 
 						<div class="col-md-5">
 							<aside class="blocDroit">
-								<?php require_once('login.html') ?>
+								<?php require_once('login.php') ?>
 							</aside>
 						</div>
 					</div>

@@ -40,7 +40,7 @@
 							</div>
 						</form>
 					</li>
-					<li><a href="#" class="[ animate ]">Accueil</a></li>
+					<li><a href="index.php" class="[ animate ]">Accueil</a></li>
 					<li>
 						<a href="#" class="[ dropdown-toggle ][ animate ]" data-toggle="dropdown">Agenda <span class="[ caret ]"></span></a>
 						<ul class="[ dropdown-menu ]" role="menu">
@@ -68,7 +68,12 @@
 							<li><a href="#" class="[ animate ]">2.3.2</a></li>
 						</ul>
 					</li>
-					<li><a class="animate" href="#login">Connexion</a></li>
+
+<!-- Modif header Isa -->
+				<!-- mise en place d'un bouton connexion/déconnexion -->
+					<li><a href="TestConnexionBDD.php" class="animate"><?php if (isset($_SESSION['email'])) echo 'Deconnexion'; else echo 'Connexion' ?></a></li>
+
+					<!-- <li><a class="animate" href="#login">Connexion</a></li> -->
                     <li class="[ hidden-xs ]"><a href="#toggle-search" class="[ animate ]"><span class="[ glyphicon glyphicon-search ]"></span></a></li>
 				</ul>
 			</div>

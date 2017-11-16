@@ -6,6 +6,6 @@
 	// $connecteur->query('SELECT * FROM adherent;')->fetchALL(PDO::FETCH_ASSOC);
 
 // on utilise les informations récupérées par cette requête et on les attribue à une variable de notre choix
-	$adherent_seance=$connecteur->query('SELECT * FROM adherent_seance;')->fetchALL(PDO::FETCH_ASSOC);
-	var_dump($adherent_seance);
+	$adherent=$connecteur->query('SELECT * FROM adherent;')->fetchALL(PDO::FETCH_ASSOC);
+	var_dump($adherent);
 ?></pre>
