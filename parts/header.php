@@ -71,7 +71,11 @@
 
 <!-- Modif header Isa -->
 				<!-- mise en place d'un bouton connexion/déconnexion -->
-					<li><a href="TestConnexionBDD.php" class="animate"><?php if (isset($_SESSION['email'])) echo 'Deconnexion'; else echo 'Connexion' ?></a></li>
+					<li><a href="index.php" class="animate">
+						<?php if (isset($_SESSION['email'])) 
+						echo 'Deconnexion'; 
+						else echo 'Connexion' ?></a>
+					</li>
 
 					<!-- <li><a class="animate" href="#login">Connexion</a></li> -->
                     <li class="[ hidden-xs ]"><a href="#toggle-search" class="[ animate ]"><span class="[ glyphicon glyphicon-search ]"></span></a></li>
