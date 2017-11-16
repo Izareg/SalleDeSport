@@ -2,15 +2,19 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 	<title>Contact Biscotto 3000</title>
-	<!-- Titre -->
+	
+
+		<!-- Titre -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-					<h1 id="titre">Bienvenue sur <span>Biscotto 3000</span> <img class="logo" src="img/bisco.png"></h1>
+					<h1 id="titre">Bienvenue chez <span>Biscotto 3000</span> <img class="logo" src="img/bisco.png"></h1>
 					<p class="txt">En campagne ou ville, osez le style, optez pour la gonflette utile !</p>
 					</div>
 				</div><!-- fermeture class row -->
 			</div>
+	
+
 	<main id="contact">
 	<section>
 			<div class="section-content">
@@ -51,5 +55,5 @@
 			</div>
 		</section>
 	</main>
+	<?php require_once('parts/footer.php'); ?>
 </body>
-</html>

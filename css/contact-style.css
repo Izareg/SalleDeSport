@@ -1,3 +1,27 @@
+body{
+    font-family: Raleway;
+    padding:0;
+}
+
+/*Titres*/
+#titre{
+    font-size: 5rem;
+    font-weight: 100;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#titre span{
+    font-weight: 900;
+    color:#007EA7;
+}
+
+.paragraphe, .txt {
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+
 .section-content{
   text-align: center; 
 
@@ -48,7 +72,7 @@ textarea.form-control {
 }
 
 #contact {
-  padding-bottom: 250px;
+  padding-bottom: 150px;
 }
 
 .etoiles {

@@ -5,8 +5,9 @@
 <link rel="stylesheet" type="text/css" href="css/presentation-style.css">
 
 	<title>Présentation Biscotto 3000</title>
+
+
 <!-- Titre -->
-<body>
 	<div class="container bla">
 		<div class="row">
 			<div class="col-md-12">
@@ -16,7 +17,7 @@
 		</div><!-- fermeture class row -->
 	</div>
 
-
+	<main>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 mes_images">
@@ -58,5 +59,5 @@
 					</div>
 				</div> <!--fermeture div class row-->
 		</section>
-</body>
+	</main>	
 <?php require_once('parts/footer.php'); ?>
