@@ -8,7 +8,7 @@
 
 
 <!-- Titre -->
-	<div class="container bla">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 			<h1 id="titre">Bienvenue chez <span>Biscotto 3000</span> <img class="logo" src="img/bisco.png"></h1>
