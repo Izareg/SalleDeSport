@@ -1,5 +1,5 @@
 <?php
-// creation d'une variable dont le nom doit correspondre à celui de la requête
+// creation d'une variable dont le nom doit correspondre à celui de la requête (nom bbd, nom utilisateur, mdp)
 	$salledesport = new PDO('mysql:host=localhost;dbname=salledesport', 'salledesport', 'alonbon');
 // on crée une requete attribuée au connecteur
 	// $connecteur->query('SELECT * FROM adherent;')->fetchALL(PDO::FETCH_ASSOC);
@@ -38,8 +38,9 @@ if (password_verify($_POST['pass'], $resultat['motDePasse'])){
     $_SESSION['email'] = $email;
     header('Location: ConnexionMembre.php');
 } else {
-    echo 'Le mot de passe est invalide.';
+    // echo 'Le mot de passe est invalide.';
+    // On détruit la session
+    unset($_SESSION['email']);
 }
 
 ?>
-
