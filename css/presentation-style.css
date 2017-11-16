@@ -1,0 +1,49 @@
+/*Titres*/
+#titre{
+    font-size: 5rem;
+    font-weight: 100;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#titre span{
+    font-weight: 900;
+    color:#007EA7;
+}
+
+.bla {
+    padding-top: 100px;
+}
+
+body{
+    font-family: Raleway;
+    padding:0;
+}
+
+figcaption { /*pour changer le text dans l'image*/
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 18px;
+    vertical-align: middle;
+    padding-top:14px;
+}
+
+.mes_images>.col-md-4 {
+    width: 600px;
+}
+
+.mes_images img{
+    width: 600px;
+}
+
+.paragraphe, .txt {
+    padding-top: 50px;
+    font-size: 20px;
+    text-align: justify;
+}

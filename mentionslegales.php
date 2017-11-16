@@ -22,6 +22,9 @@
 	<p><div class="bleue">Biscotto 3000</div> est une EURL au capital de 35000€</p>
 	<p>CS B 497 553 71 - Siret : ALADIN900020 - APE : LAMPE07</p>
 	<p>N° déclaration CNIL : 55555</p>
+	<h1 class="nom">Les propriétaires de Biscotto 3000 :</h1>
+	<p><img src="img/notrefamille.jpg"></p>
+
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2758.2213654481848!2d1.3776557158066858!3d46.265704887624246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47fbfc650632d4f9%3A0xf4fb87b97e2a9148!2sTerres+du+Cimeti%C3%A8re%2C+87160+Arnac-la-Poste!5e0!3m2!1sfr!2sfr!4v1510653556228" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 

@@ -5,9 +5,9 @@
 		<meta charset="utf-8">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/style-nav.css">
 		<link rel="stylesheet" type="text/css" href="css/stylefooter.css">
+		<link rel="stylesheet" type="text/css" href="css/contact-style.css">
 	</head>
 	<body>
 		<header class="text-center">
@@ -55,9 +55,9 @@
 						</ul>
 					</li>
 					<li class="[ dropdown ]">
-						<a href="#" class="[ dropdown-toggle ][ animate ]" data-toggle="dropdown">Contact <span class="[ caret ]"></span></a>
+						<a href="contact.php" class="[ dropdown-toggle ][ animate ]" data-toggle="dropdown">Contact <span class="[ caret ]"></span></a>
 						<ul class="[ dropdown-menu ]" role="menu">
-							<li><a href="#" class="[ animate ]">Featured <span class="[ pull-right glyphicon glyphicon-star ]"></span></a></li>
+							<li><a href="contact.php" class="[ animate ]">Formulaire <span class="[ pull-right glyphicon glyphicon-star ]"></span></a></li>
 							<li><a href="#" class="[ animate ]">Tags  <span class="[ pull-right glyphicon glyphicon-tags ]"></span></a></li>
 							<li class="[ dropdown-header ]">By Bootstrap Version</li>
 							<li><a href="#" class="[ animate ]">3.2.0</a></li>
