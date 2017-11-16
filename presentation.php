@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="css/presentation-style.css">
 
-	
+	<title>Présentation Biscotto 3000</title>
 <!-- Titre -->
 <body>
 	<div class="container bla">
@@ -52,7 +52,7 @@
 
 						<div class="col-md-5">
 							<aside class="blocDroit">
-								<?php require_once('login.html') ?>
+								<?php require_once('login.php') ?>
 							</aside>
 						</div>
 					</div>

@@ -1,10 +1,8 @@
 <?php require_once('parts/header.php'); ?>
 
-	
-
-	<main id="contact">
-	<section>
-			<!-- Titre -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<title>Contact Biscotto 3000</title>
+	<!-- Titre -->
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
@@ -13,10 +11,10 @@
 					</div>
 				</div><!-- fermeture class row -->
 			</div>
-
+	<main id="contact">
+	<section>
 			<div class="section-content">
-				<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s">Biscotto 3000</span></h1>
-				<h3>Nous contacter</h3>
+				<h1>Nous contacter</h1>
 			</div>
 			<div class="contact-section">
 			<div class="container">
