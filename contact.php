@@ -5,7 +5,7 @@
 	<main id="contact">
 	<section>
 			<!-- Titre -->
-			<div class="container-fluid">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
 					<h1 id="titre">Bienvenue sur <span>Biscotto 3000</span> <img class="logo" src="img/bisco.png"></h1>

@@ -44,7 +44,7 @@
 		<section>
 				<div class="container col-md-12">
 					<div class="row">
-						<div class="col-md-7">
+						<div class="col-md-offset-1 col-md-4">
 							<p class="paragraphe">
 								Bonjour et bienvenue sur notre site internet.<br> Notre salle se situe à Dijon, en plein coeur du centre ville, dans la caves de la mairie, pratique d'accès et grande par sa taille bla bla bla le sang de tes morts
 								</p>
